@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:posture_app/screens/auth_screen.dart';
 
 import 'package:posture_app/screens/home_screen.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         canvasColor: Colors.green[50],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: AuthScreen(),
     );
   }
 }

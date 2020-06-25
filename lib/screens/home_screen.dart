@@ -26,6 +26,7 @@ class HomeScreen extends StatelessWidget {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 DropdownButton(
                   underline: Container(),
